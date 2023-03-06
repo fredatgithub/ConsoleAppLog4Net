@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLog4Net", "ConsoleAppLog4Net\ConsoleAppLog4Net.csproj", "{5FC4BD2A-31ED-4604-8ACE-AD339A50CCA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppWithLog4Net", "WindowsFormsAppWithLog4Net\WindowsFormsAppWithLog4Net.csproj", "{EDC55B76-9A5A-4C91-94E5-A105F68C5BA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5FC4BD2A-31ED-4604-8ACE-AD339A50CCA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FC4BD2A-31ED-4604-8ACE-AD339A50CCA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FC4BD2A-31ED-4604-8ACE-AD339A50CCA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC55B76-9A5A-4C91-94E5-A105F68C5BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC55B76-9A5A-4C91-94E5-A105F68C5BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC55B76-9A5A-4C91-94E5-A105F68C5BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC55B76-9A5A-4C91-94E5-A105F68C5BA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
