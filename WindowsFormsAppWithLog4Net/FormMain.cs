@@ -22,5 +22,18 @@ namespace WindowsFormsAppWithLog4Net
       logger.Info("Démarrage de l'application");
       logger.Info($"Utilisateur connecté : {Environment.UserName}");
     }
+
+    private void AProposdeToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+      logger.Info("menu a propos de est appelé");
+      AboutBoxApp about = new AboutBoxApp();
+      about.Show();
+    }
+
+    private void QuitterToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+      logger.Info("on ferme l'application");
+      Application.Exit();
+    }
   }
 }
