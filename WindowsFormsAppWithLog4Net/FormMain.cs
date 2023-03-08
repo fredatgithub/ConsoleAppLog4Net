@@ -14,6 +14,7 @@ namespace WindowsFormsAppWithLog4Net
     }
 
     internal ILog logger = LogManager.GetLogger(typeof(FormMain));
+    // don't forget to set always copy in properties of the file
     private string Log4NetConfigFilePath = "log4net.config.xml";
 
     private void Form1_Load(object sender, EventArgs e)
