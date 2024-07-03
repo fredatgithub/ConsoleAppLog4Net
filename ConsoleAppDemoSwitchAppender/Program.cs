@@ -62,8 +62,8 @@ namespace ConsoleAppDemoSwitchAppender
     {
       // Activer les logs de débogage pour log4net
       log4net.Util.LogLog.InternalDebugging = value;
-
     }
+
     private static void ListAppenders()
     {
       var hierarchy = (Hierarchy)LogManager.GetRepository();
