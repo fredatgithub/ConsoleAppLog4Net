@@ -21,19 +21,38 @@ namespace WindowsFormsAppWithLog4Net
       XmlConfigurator.ConfigureAndWatch(new FileInfo(Log4NetConfigFilePath));
       logger.Info("Démarrage de l'application");
       logger.Info($"Utilisateur connecté : {Environment.UserName}");
+      logger.Info("Log info");
+      logger.Debug("Log debug");
+      logger.Error("Log error");
     }
 
     private void AProposdeToolStripMenuItem_Click(object sender, EventArgs e)
     {
-      logger.Info("menu a propos de est appelé");
+      logger.Info("Menu a propos de est appelé");
       AboutBoxApp about = new AboutBoxApp();
       about.Show();
     }
 
     private void QuitterToolStripMenuItem_Click(object sender, EventArgs e)
     {
-      logger.Info("on ferme l'application");
+      logger.Info("On ferme l'application");
       Application.Exit();
+    }
+
+    private void LogInformationToolStripMenuItemLogInfo_Click(object sender, EventArgs e)
+    {
+      // log info par défaut
+      logInformationToolStripMenuItemLogInfo.Checked = true;
+      logVerbeuxToolStripMenuItemLogVerbose.Checked = false;
+
+    }
+
+    private void LogVerbeuxToolStripMenuItemLogVerbose_Click(object sender, EventArgs e)
+    {
+      // log verbeux
+      logInformationToolStripMenuItemLogInfo.Checked = false;
+      logVerbeuxToolStripMenuItemLogVerbose.Checked = true;
+
     }
   }
 }

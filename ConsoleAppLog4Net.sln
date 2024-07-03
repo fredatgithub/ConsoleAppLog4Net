@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLog4Net", "Consol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppWithLog4Net", "WindowsFormsAppWithLog4Net\WindowsFormsAppWithLog4Net.csproj", "{EDC55B76-9A5A-4C91-94E5-A105F68C5BA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppDemoSwitchAppender", "ConsoleAppDemoSwitchAppender\ConsoleAppDemoSwitchAppender.csproj", "{EBCAD093-EB07-4AAD-848C-A35D758FDA82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EDC55B76-9A5A-4C91-94E5-A105F68C5BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC55B76-9A5A-4C91-94E5-A105F68C5BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC55B76-9A5A-4C91-94E5-A105F68C5BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBCAD093-EB07-4AAD-848C-A35D758FDA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCAD093-EB07-4AAD-848C-A35D758FDA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCAD093-EB07-4AAD-848C-A35D758FDA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCAD093-EB07-4AAD-848C-A35D758FDA82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
