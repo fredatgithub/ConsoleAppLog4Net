@@ -5,7 +5,7 @@
 	</configSections>
 	<log4net>
 		<appender name="mainFileAppender" type="log4net.Appender.RollingFileAppender">
-			<file type="log4net.Util.PatternString" value="Application_name_log" />
+			<file type="log4net.Util.PatternString" value="Application_name_Info_log" />
 			<appendToFile value="true" />
 			<rollingStyle value="Date" />
 			<encoding value="utf-8" />
@@ -18,7 +18,7 @@
 			</layout>
 		</appender>
 		<appender name="developerAppender" type="log4net.Appender.RollingFileAppender">
-			<file type="log4net.Util.PatternString" value="Application_name_log" />
+			<file type="log4net.Util.PatternString" value="Application_name_Debug_log" />
 			<appendToFile value="true" />
 			<rollingStyle value="Date" />
 			<encoding value="utf-8" />
@@ -31,9 +31,9 @@
 			</layout>
 		</appender>
 		<root>
-			<level value="INFO" />
+			<level value="DEBUG" />
 			<appender-ref ref="mainFileAppender" />
-			<appender-ref ref="developerAppender" />
+			<!--<appender-ref ref="developerAppender" />-->
 		</root>
 	</log4net>
 </configuration>
